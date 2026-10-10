@@ -14,4 +14,4 @@ RUN apk add --no-cache --update --virtual wget unzip && \
 
 RUN chmod +x /opt/v2ray
 
-CMD ["/opt/v2ray run -c /config.json"]
+CMD ["/opt/v2ray", "run", "-c", "/config.json"]
